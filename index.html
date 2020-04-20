@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <h1>DOG YEARS IN JS</h1>
+
+    <script>
+      let myAge = 22;
+      // Declaration and initiation of variable
+      let earlyYears = 2;
+      earlyYears *= 10.5;
+
+      // Subtracting 2 from myAge
+      laterYears = myAge - 2;
+
+      // Calculation of dog years accounted for by later years
+      laterYears *= 4;
+      console.log(earlyYears, laterYears);
+
+      // My age in dog years
+      myAgeInDogYears = earlyYears + laterYears;
+
+      // Assignment of name to a variable and using the built-in .toLowerCase() to turn int return a string with all lowercase letters
+      let myName = "Miss V".toLowerCase();
+
+      console.log(
+        `My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} old in dog years.`
+      );
+    </script>
+  </body>
+</html>
